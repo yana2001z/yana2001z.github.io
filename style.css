@@ -1,0 +1,208 @@
+body {
+    
+      font-family: "Georgia", sans-serif;
+      font-style: italic;
+      margin: 0 auto;
+      font-size: 14px;
+      line-height:50px;
+      color: #000000;
+      margin-left: 200px;
+      margin-top:35px;
+     }
+     
+
+ {box-sizing: border-box;}
+form {
+  position: relative;
+  left:420px;
+  bottom:113px;
+  width: 300px;
+  margin: 0 auto;
+  background: #DCDCDC;
+  border-bottom: 4px solid #666;
+}
+input, button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+}
+button {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:before {
+  content: "\f178";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #666;
+}
+
+  
+
+h1{
+
+
+margin: 0 auto;	
+margin-right:170px;
+margin-top: 30px
+
+
+}
+
+#menu ul{
+        display: none;
+        background-color: #f90;
+        position: absolute;
+        top: 100%;
+      }
+      #menu li:hover ul { display: block; }
+      #menu, #menu ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #menu{
+        position:relative;bottom:36px;
+        position:relative;right:199px;
+        height: 50px;
+        width:1348px;
+        background-color:#F0FFF0;
+        min-width: 470px;
+
+      }
+      #menu li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #menu li a {
+        font-size: 16px;
+        display: block;
+        position:relative;bottom:1px;
+        position:relative;left:1080px;
+        width: 150px;
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+
+      }
+      #menu ul li { float: none; }
+      #menu ul li:hover { background-color: #696; }
+
+
+
+
+#navbar ul{
+        display: none;
+        background-color: #f90;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 80px;
+        width:1374px;
+        background-color: #666;
+        padding-left: 25px;
+        min-width: 470px;
+        position:relative; right:250px;
+        position:relative; bottom:47px;
+
+
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #navbar li a {
+        font-size:19px;
+        font-family: "Arial";
+        display: block;
+        position:relative;top:14px;
+        width: 270px;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+
+      }
+      #navbar ul li { float: none; }
+      #navbar li:hover { background-color: #666; }
+      #navbar ul li:hover { background-color: #666; }
+
+      .sapca1{
+        font-size:17px;
+        position:relative; top:1px;
+        position:relative; right:150px;
+      }
+
+
+      .modeli{
+        position:relative;top:40px;
+        position:relative;right:30px;
+        
+      }
+
+
+
+.skidki h2{
+font-size: 90px;
+margin-left:370px;
+position:relative;top:45px;
+/*word-spacing:50px;*/
+
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+ margin-right:260px;
+ margin-top:30px;
+}
+
+.foto{
+    position:relative; top:2px;
+    position:relative;right:50px;
+    margin-right: 40px; /* Отступ справа */
+    margin-bottom: 13px; /* Отступ снизу */
+    margin-left: 10px;
+}
+.sign {
+    float: right; /* Выравнивание по правому краю */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+
+   }
+
+.site-footer {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  color:#000000;
+  position:relative; right:67px;
+  margin-right:70px;
+}
+
+hr {
+  position:relative; top:10px;
+  position:relative; right:98px;
+    border: none; /* Убираем границу */
+    background-color: #696969; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    width:1033px;
+   }
